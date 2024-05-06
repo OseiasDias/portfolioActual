@@ -1,0 +1,27 @@
+
+
+
+
+*{
+    color: #fff;
+}
+.seccao_Projectos{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5),rgba(0,0,0,.5)),url('../../assets/img/novo.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height:100vh !important;
+   
+   
+}
+
+
+.back{
+    background-color: rgba(0,0,0,0.8);
+    padding: 40px 20px;
+    
+}
+
+.containerProj{
+    padding-top: 150px;
+}

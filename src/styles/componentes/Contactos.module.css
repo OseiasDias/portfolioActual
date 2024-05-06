@@ -1,0 +1,79 @@
+.itens {
+    font-size: 2.4em !important;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #ffffff29;
+    margin-right: 10px;
+
+}
+
+.divs {
+    background-color: #ffffff21;
+    padding: 20px 15px;
+}
+
+.icones {
+    margin-right: 10px;
+    font-size: 1.3em;
+}
+
+
+.textoTop {
+    font-size: 1em;
+    color: #808080;
+}
+
+.textoTop::after {
+    content: '';
+    display: inline-block;
+    width: 70px;
+    height: 1px;
+    background-color: #18d26e;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.formulario {
+    margin-top: 50px;
+    background-color: #ffffff21 !important;
+    padding: 40px 20px;
+}
+
+.meuBotton {
+    margin: auto !important;
+    display: block;
+    background-color: #18d26e;
+    color: #fff !important;
+    border: none;
+    outline: none;
+    border-radius: .3em;
+    padding: 10px 30px;
+}
+
+.meuBotton:hover{
+    background-color: #00a74e;
+}
+
+
+.itensF {
+
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+    height: 35px;
+    padding-left: 15px;
+    background-color: #ffffff2b;
+    color: #fff !important;
+
+}
+
+.itensF::placeholder {
+    color: #808080 !important;
+    font-size: .9em;
+}
+
+
+.formulario textarea {
+    height: 120px;
+}

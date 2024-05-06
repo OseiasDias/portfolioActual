@@ -1,0 +1,72 @@
+
+
+.seccao_home{
+    background: linear-gradient(to right, rgba(0,0,0,.8),rgba(0,0,0,.8)),url('../../assets/img/novo.jpg') ;
+
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.divisaoTexto{
+    top:50%;
+    transform: translateY(-50%);
+    position:absolute;
+    display: block;
+    margin: auto;
+    z-index:-100px !important
+    
+}
+.sub_seccao{
+    z-index: 1 !important;  
+ 
+}
+
+.divisaoTexto h2{
+    font-size: 3em  !important;
+    font-weight: bold;
+}
+
+.divisaoTexto p{
+    font-size: 1.4em;
+    margin-top: 20px;
+}
+
+
+.divisaoTexto span{
+    border-bottom: 2px solid #198754;
+    padding-bottom: 5px;
+    font-weight: 700;
+}
+
+
+
+@media (max-width:768px) {
+
+    .divisaoTexto h2{
+        font-size: 2.5em  !important;
+        font-weight: bold;
+   
+    }
+    
+    .divisaoTexto p{
+        font-size: 1.1em;
+        margin-top: 20px;
+    }
+    
+    
+}
+
+.icones{
+    font-size: 2.3em;
+    margin: 10px;
+    background-color: #ffffff33;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.icones:hover{
+    background-color:#198754;
+   
+}

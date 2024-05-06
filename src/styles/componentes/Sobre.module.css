@@ -1,0 +1,162 @@
+
+*{
+    color: #fff;
+}
+.seccao_sobre{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5),rgba(0,0,0,.5)),url('../../assets/img/novo.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+.container{
+    padding-top: 120px;
+    
+}
+
+.boxImagem img{
+   width: 100%;
+  
+    
+}
+.boxImagem{
+    background-color: #000 !important;
+}
+
+.caixa{
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 35px;
+    
+}
+
+.container ul{
+    list-style: none !important;
+    left: -30px;
+    position: relative;
+}
+
+.container ul li{
+    margin-bottom: 15px;
+    font-size: 1em;
+    
+}
+
+.direita{
+    background-color:#18d26e !important;
+    font-size: 1em;
+    font-weight: 700;
+    padding: 2px;
+    margin-right: 8px;
+    top:-1px;
+    position: relative;
+}
+
+.sobreMin p{
+    text-align: justify;
+}
+.textoProgr{
+    color:#18d26e !important;
+    font-weight: 700;
+
+}
+
+@media (max-width:992px){
+
+    .textoProgr{
+        margin:20px 0;
+    }
+    .textoBottom{
+        font-size: 1.9em !important;
+        font-weight: 700;
+    }
+}
+
+@media (max-width:576px){
+    .textoBottom{
+        font-size: 1.4em !important;
+        font-weight: 700;
+    }
+}
+
+
+.textoTop{
+    font-size: 1em;
+    color: #808080;
+}
+
+.textoTop::after{
+    content: '';
+    display: inline-block;
+    width: 70px;
+    height: 1px;
+    background-color: #18d26e;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.textoBottom{
+    font-size: 2.3em;
+    font-weight: 700;
+}
+
+span{
+    font-weight: bold !important;
+}
+
+.seccao_espc{
+    text-align: center !important;
+}
+
+.seccao_espc .itens{
+    font-size: 2.5em;
+    background-color: #808080;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.div_espc div{
+    background-color: #ffffff21;
+    padding:15px 35px ;
+}
+
+.div_espc div p{
+    margin-bottom: 3px;
+}
+
+.div_espc div p:nth-child(2){
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+.percentagem p{
+    margin-bottom: -2px;
+    margin-top: 10px;
+    font-size: .9em;
+}
+
+.percentagem p + div{
+    border-radius: 0 !important;
+    height: 10px;
+}
+
+.divInter{
+    background-color: #ffffff1e;
+    padding: 20px 15px;
+    margin: 10px 0 !important;
+    
+}
+
+
+.subIcones{
+    font-size: 2.8em;
+    margin-right: 5px;
+    background-color:#18d26e !important;
+    padding: 10px;
+}
+
+.divInter:hover{
+    background-color: #ffffff5d;
+}
+
