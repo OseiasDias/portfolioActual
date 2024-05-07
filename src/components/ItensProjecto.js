@@ -23,7 +23,7 @@ export default function ItensProjecto() {
             <h2 className='fw-bold fs-2 mb-3 scrollR'>HTML5,CSS3,BOOSTRAP</h2>
 
             <div className='col-12 col-md-6 col-lg-4'>
-                <div className={`my-2 scrollR ${styles.imagens}`}>
+                <div className={`my-2  ${styles.imagens}`}>
 
                     <div className={` ${styles.imagemTop}`}>
                         <img src={img1} alt='...' className='w-100' />
@@ -49,7 +49,7 @@ export default function ItensProjecto() {
             </div>
 
             <div className='col-12 col-md-6 col-lg-4'>
-                <div className={`my-2 scrollR ${styles.imagens}`}>
+                <div className={`my-2  ${styles.imagens}`}>
 
                     <div className={`${styles.imagemTop}`}>
                         <img src={img2} alt='...' className='w-100' />
@@ -73,7 +73,7 @@ export default function ItensProjecto() {
             </div>
 
             <div className='col-12 col-md-6 col-lg-4'>
-                <div className={`my-2 scrollR ${styles.imagens}`}>
+                <div className={`my-2  ${styles.imagens}`}>
 
                     <div className={` ${styles.imagemTop}`}>
                         <img src={img3} alt='...' className='w-100' />
@@ -97,7 +97,7 @@ export default function ItensProjecto() {
             </div>
 
             <div className='col-12 col-md-6 col-lg-4'>
-                <div className={`my-2 scrollR  ${styles.imagens}`}>
+                <div className={`my-2   ${styles.imagens}`}>
 
                     <div className={` ${styles.imagemTop}`}>
                         <img src={img4} alt='...' className='w-100' />
@@ -122,7 +122,7 @@ export default function ItensProjecto() {
 
 
             <div className='col-12 col-md-6 col-lg-4'>
-                <div className={`my-2 scrollR  ${styles.imagens}`}>
+                <div className={`my-2   ${styles.imagens}`}>
                     <div className={` ${styles.imagemTop}`}>
                         <h2 className={styles.fontBreve}>Brevemente ,Mais carregamentos...</h2>
                         <MdAddChart className={styles.addItem} />
@@ -139,7 +139,7 @@ export default function ItensProjecto() {
             <h2 className='fw-bold fs-2 mb-3 mt-5 scrollR'>HTML5,CSS3,BOOSTRAP + JS + REACT.js</h2>
 
             <div className='col-12 col-md-6 col-lg-4'>
-                <div className={`my-2 scrollR ${styles.imagens}`}>
+                <div className={`my-2  ${styles.imagens}`}>
 
                     <div className={` ${styles.imagemTop}`}>
                         <img src={img6} alt='...' className='w-100' />
@@ -165,7 +165,7 @@ export default function ItensProjecto() {
             </div>
 
             <div className='col-12 col-md-6 col-lg-4'>
-                <div className={`my-2 scrollR ${styles.imagens}`}>
+                <div className={`my-2  ${styles.imagens}`}>
 
                     <div className={`${styles.imagemTop}`}>
                         <img src={img7} alt='...' className='w-100' />
@@ -189,7 +189,7 @@ export default function ItensProjecto() {
             </div>
 
             <div className='col-12 col-md-6 col-lg-4'>
-                <div className={`my-2 scrollR ${styles.imagens}`}>
+                <div className={`my-2  ${styles.imagens}`}>
 
                     <div className={` ${styles.imagemTop}`}>
                         <img src={img8} alt='...' className='w-100' />
@@ -214,7 +214,7 @@ export default function ItensProjecto() {
 
 
             <div className='col-12 col-md-6 col-lg-4'>
-                <div className={`my-2 scrollR  ${styles.imagens}`}>
+                <div className={`my-2   ${styles.imagens}`}>
                     <div className={` ${styles.imagemTop}`}>
                         <h2 className={styles.fontBreve}>Brevemente ,Mais carregamentos...</h2>
                         <MdAddChart className={styles.addItem} />

@@ -1,7 +1,6 @@
 
 
 import Menu from '../components/Menu';
-import Footer from '../components/Footer';
 import Sobre from '../components/Sobre'
 import styles from '../styles/paginas/About.module.css'
 
@@ -17,7 +16,7 @@ export default function About() {
                 </header>
 
                 <Sobre />
-                <Footer />
+                
 
                
 
