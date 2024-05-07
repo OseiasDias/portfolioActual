@@ -32,7 +32,7 @@ function Iteresses(){
 
             <div  className={`row mt-5  ${styles.divInteresses}` } >
                  
-                <h3 className={`mt-2 scrollR ${styles.textoTop}`}>INTERESSES</h3>
+                <h3 className={`mt-2  ${styles.textoTop}`}>INTERESSES</h3>
 
                 <div className='col-12 col-md-4 col-lg-3 my-3 '>
                     <div className={` h-100 ${styles.divInter}` }>
@@ -95,7 +95,7 @@ export default function Sobre() {
 
                     <div className={styles.caixa}>
 
-                        <div className={`row scrollR`}>
+                        <div className={`row `}>
 
                             <header className='mt-lg-3'>
                                 <h6 className={`mt-2 scrollR ${styles.textoTop}`}>SOBRE</h6>
@@ -112,7 +112,7 @@ export default function Sobre() {
                                 <div className={`row`}>
                                     <h3 className={styles.textoProgr}>Programador Front-End</h3>
                                     <p><span>Dados Gerais</span></p>
-                                    <div className='col-lg-6 scrollR'>
+                                    <div className='col-lg-6 '>
 
                                         <ul>
                                             <li><FaChevronRight className={`${styles.direita}`} />
