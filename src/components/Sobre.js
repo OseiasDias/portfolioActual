@@ -30,49 +30,49 @@ function Iteresses(){
 
         <ScrollRevealComponent targetClass='scrollR'/>
 
-            <div  className={`row mt-5 scrollR ${styles.divInteresses}` } >
+            <div  className={`row mt-5  ${styles.divInteresses}` } >
                  
                 <h3 className={`mt-2 scrollR ${styles.textoTop}`}>INTERESSES</h3>
 
-                <div className='col-12 col-md-4 col-lg-3 my-3 scrollR'>
+                <div className='col-12 col-md-4 col-lg-3 my-3 '>
                     <div className={` h-100 ${styles.divInter}` }>
-                        <p><IoBookSharp className={styles.subIcones} /> Leitura de Livros de TI </p>
+                        <p><IoBookSharp className={`scrollR ${styles.subIcones}`} /> Leitura de Livros de TI </p>
                     </div>
                 </div>
-                <div className='col-12 col-md-4 col-lg-3 my-3 scrollR'>
+                <div className='col-12 col-md-4 col-lg-3 my-3 '>
                     <div  className={` h-100 ${styles.divInter}` }>
-                        <p><IoGameController  className={styles.subIcones} /> Videos Games </p>
+                        <p><IoGameController  className={`scrollR ${styles.subIcones}`} /> Videos Games </p>
                     </div>
                 </div>
-                <div className='col-12 col-md-4 col-lg-3 my-3 scrollR'>
+                <div className='col-12 col-md-4 col-lg-3 my-3 '>
                     <div className={` h-100 ${styles.divInter}` }>
-                        <p><PiFilmSlateFill className={styles.subIcones} /> Assistir Séries/Filmes </p>
+                        <p><PiFilmSlateFill className={`scrollR ${styles.subIcones}`} /> Assistir Séries/Filmes </p>
                     </div>
                 </div>
-                <div className='col-12 col-md-4 col-lg-3 my-3 scrollR'>
+                <div className='col-12 col-md-4 col-lg-3 my-3 '>
                     <div className={` h-100 ${styles.divInter}` }>
-                        <p><FaNewspaper className={styles.subIcones} /> Noticias </p>
+                        <p><FaNewspaper className={`scrollR ${styles.subIcones}`} /> Noticias </p>
                     </div>
                 </div>
 
-                <div className='col-12 col-md-4 col-lg-3 my-3 scrollR'>
+                <div className='col-12 col-md-4 col-lg-3 my-3 '>
                     <div className={` h-100 ${styles.divInter}` }>
-                        <p><MdOutlineSportsSoccer className={styles.subIcones} /> Desportos </p>
+                        <p><MdOutlineSportsSoccer className={`scrollR ${styles.subIcones}`} /> Desportos </p>
                     </div>
                 </div>
-                <div className='col-12 col-md-4 col-lg-3 my-3 scrollR'>
+                <div className='col-12 col-md-4 col-lg-3 my-3 '>
                     <div className={` h-100 ${styles.divInter}` }>
-                        <p><SiRemedyentertainment  className={styles.subIcones} /> Entretenimentos </p>
+                        <p><SiRemedyentertainment  className={`scrollR ${styles.subIcones}`} /> Entretenimentos </p>
                     </div>
                 </div>
-                <div className='col-12 col-md-4 col-lg-3 my-3 scrollR'>
+                <div className='col-12 col-md-4 col-lg-3 my-3 '>
                     <div className={` h-100 ${styles.divInter}` }>
-                        <p><FaMusic className={styles.subIcones} />Musicas </p>
+                        <p><FaMusic className={`scrollR ${styles.subIcones}`} />Musicas </p>
                     </div>
                 </div>
-                <div className='col-12 col-md-4 col-lg-3 my-3 scrollR'>
+                <div className='col-12 col-md-4 col-lg-3 my-3 '>
                     <div className={` h-100 ${styles.divInter}` }>
-                        <p><FaPlaneDeparture  className={styles.subIcones} /> Viagens </p>
+                        <p><FaPlaneDeparture  className={`scrollR ${styles.subIcones}`} /> Viagens </p>
                     </div>
                 </div>
             </div>
@@ -102,7 +102,7 @@ export default function Sobre() {
                                 <h3 className={`mb-4 scrollR ${styles.textoBottom}`}>SAIBA MAIS SOBRE MIM</h3>
                             </header>
 
-                            <div className={`col-12 scrollR col-md-12 col-lg-4 ${styles.boxImagem}`}>
+                            <div className={`col-12  col-md-12 col-lg-4 ${styles.boxImagem}`}>
 
                                 <img src={imagemPerfil} alt='imagem do perfil' />
                             </div>
@@ -150,7 +150,7 @@ export default function Sobre() {
                                         </ul>
 
                                     </div>
-                                    <div className='col-lg-6 scrollR'>
+                                    <div className='col-lg-6 '>
 
                                         <ul>
                                             <li><FaChevronRight className={`${styles.direita}`} />
@@ -259,7 +259,7 @@ function Especificacao() {
                 <div className='row'>
 
                     <div className={`col-12 col-md-12 col-lg-3 ${styles.div_espc}`}>
-                        <div className='my-3 scrollR'>
+                        <div className='my-3 '>
                             <p><FaPeopleGroup className={styles.itens} /></p>
                             <p>7</p>
                             <p>Clientes satisfeitos</p>
@@ -267,7 +267,7 @@ function Especificacao() {
                     </div>
 
                     <div className={`col-12 col-md-12 col-lg-3 ${styles.div_espc}`}>
-                        <div className='my-3 scrollR'>
+                        <div className='my-3 '>
                             <p><GrProjects className={styles.itens} /></p>
                             <p>21</p>
                             <p>Projectos</p>
@@ -275,7 +275,7 @@ function Especificacao() {
                     </div>
 
                     <div className={`col-12 col-md-12 col-lg-3 ${styles.div_espc}`}>
-                        <div className='my-3 scrollR'>
+                        <div className='my-3 '>
                             <p><Ri24HoursLine className={styles.itens} /></p>
                             <p>434</p>
                             <p>Ultimas Horas</p>
@@ -283,7 +283,7 @@ function Especificacao() {
                     </div>
 
                     <div className={`col-12 col-md-12 col-lg-3 ${styles.div_espc}`}>
-                        <div className='my-3 scrollR'>
+                        <div className='my-3 '>
                             <p><FaAward className={styles.itens} /></p>
                             <p>1</p>
                             <p>Prémio</p>
