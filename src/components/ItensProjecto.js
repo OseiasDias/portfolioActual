@@ -155,8 +155,10 @@ export default function ItensProjecto() {
                                 <FaReact className={styles.itensRede} />
                             </div>
 
-                            <button className={` ${styles.meuBotton} `}>Ver Agora</button>
-
+                            
+                            <Link to="https://oseiasdiasdewi.netlify.app/" target="_blank" >
+                                <button className={` ${styles.meuBotton} `}>Ver Agora</button>
+                            </Link>
                         </div>
                     </div>
                 </div>
