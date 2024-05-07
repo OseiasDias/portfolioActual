@@ -36,43 +36,43 @@ function Iteresses(){
 
                 <div className='col-12 col-md-4 col-lg-3 my-3 '>
                     <div className={` h-100 ${styles.divInter}` }>
-                        <p><IoBookSharp className={`scrollR ${styles.subIcones}`} /> Leitura de Livros de TI </p>
+                        <p><IoBookSharp className={styles.subIcones} /> Leitura de Livros de TI </p>
                     </div>
                 </div>
                 <div className='col-12 col-md-4 col-lg-3 my-3 '>
                     <div  className={` h-100 ${styles.divInter}` }>
-                        <p><IoGameController  className={`scrollR ${styles.subIcones}`} /> Videos Games </p>
+                        <p><IoGameController  className={styles.subIcones} /> Videos Games </p>
                     </div>
                 </div>
                 <div className='col-12 col-md-4 col-lg-3 my-3 '>
                     <div className={` h-100 ${styles.divInter}` }>
-                        <p><PiFilmSlateFill className={`scrollR ${styles.subIcones}`} /> Assistir Séries/Filmes </p>
+                        <p><PiFilmSlateFill className={styles.subIcones} /> Assistir Séries/Filmes </p>
                     </div>
                 </div>
                 <div className='col-12 col-md-4 col-lg-3 my-3 '>
                     <div className={` h-100 ${styles.divInter}` }>
-                        <p><FaNewspaper className={`scrollR ${styles.subIcones}`} /> Noticias </p>
+                        <p><FaNewspaper className={styles.subIcones} /> Noticias </p>
                     </div>
                 </div>
 
                 <div className='col-12 col-md-4 col-lg-3 my-3 '>
                     <div className={` h-100 ${styles.divInter}` }>
-                        <p><MdOutlineSportsSoccer className={`scrollR ${styles.subIcones}`} /> Desportos </p>
+                        <p><MdOutlineSportsSoccer className={styles.subIcones} /> Desportos </p>
                     </div>
                 </div>
                 <div className='col-12 col-md-4 col-lg-3 my-3 '>
                     <div className={` h-100 ${styles.divInter}` }>
-                        <p><SiRemedyentertainment  className={`scrollR ${styles.subIcones}`} /> Entretenimentos </p>
+                        <p><SiRemedyentertainment  className={styles.subIcones} /> Entretenimentos </p>
                     </div>
                 </div>
                 <div className='col-12 col-md-4 col-lg-3 my-3 '>
                     <div className={` h-100 ${styles.divInter}` }>
-                        <p><FaMusic className={`scrollR ${styles.subIcones}`} />Musicas </p>
+                        <p><FaMusic className={styles.subIcones} />Musicas </p>
                     </div>
                 </div>
                 <div className='col-12 col-md-4 col-lg-3 my-3 '>
                     <div className={` h-100 ${styles.divInter}` }>
-                        <p><FaPlaneDeparture  className={`scrollR ${styles.subIcones}`} /> Viagens </p>
+                        <p><FaPlaneDeparture  className={styles.subIcones} /> Viagens </p>
                     </div>
                 </div>
             </div>
