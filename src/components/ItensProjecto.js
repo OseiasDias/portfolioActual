@@ -18,7 +18,7 @@ export default function ItensProjecto() {
 
     return (<>
 
-        <div className='row' >
+        <div className='row scrollR' >
             <ScrollRevealComponent targetClass='scrollR' />
             <h2 className='fw-bold fs-2 mb-3 scrollR'>HTML5,CSS3,BOOSTRAP</h2>
 
@@ -133,10 +133,10 @@ export default function ItensProjecto() {
 
         </div>
 
-        <hr className='mt-3 scrollR' />
+        <hr className='mt-3 ' />
         <div className='row' >
 
-            <h2 className='fw-bold fs-2 mb-3 mt-5 scrollR'>HTML5,CSS3,BOOSTRAP + JS + REACT.js</h2>
+            <h2 className='fw-bold fs-2 mb-3 mt-5'>HTML5,CSS3,BOOSTRAP + JS + REACT.js</h2>
 
             <div className='col-12 col-md-6 col-lg-4'>
                 <div className={`my-2  ${styles.imagens}`}>
