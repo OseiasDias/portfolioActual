@@ -180,9 +180,9 @@ export default function ItensProjecto() {
                                 <TbBrandJavascript className={styles.itensRede} />
                                 <FaReact className={styles.itensRede} />
                             </div>
-
-                            <button className={` ${styles.meuBotton} `}>Ver Agora</button>
-
+                            <Link to="https://oseiasdiaspriximareact.netlify.app/" target="_blank" >
+                                <button className={` ${styles.meuBotton} `}>Ver Agora</button>
+                            </Link>
                         </div>
                     </div>
                 </div>
