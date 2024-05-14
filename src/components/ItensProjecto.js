@@ -5,7 +5,7 @@ import img3 from '../assets/img/sites-3.png';
 import img4 from '../assets/img/sites-4.png';
 import img6 from '../assets/img/sites-6.png';
 import img7 from '../assets/img/sites-7.png';
-import img8 from '../assets/img/sites-8.png';
+import img8 from '../assets/img/sites10.PNG';
 import { FaHtml5, FaCss3Alt, FaBootstrap, FaReact } from "react-icons/fa";
 import { TbBrandJavascript } from "react-icons/tb";
 import { MdAddChart } from "react-icons/md";
@@ -205,7 +205,9 @@ export default function ItensProjecto() {
                                 <FaReact className={styles.itensRede} />
                             </div>
 
-                            <button className={` ${styles.meuBotton}`}>Ver Agora</button>
+                            <Link to="https://reactboavida.netlify.app" target="_blank" >
+                                <button className={` ${styles.meuBotton} `}>Ver Agora</button>
+                            </Link>
 
                         </div>
                     </div>
