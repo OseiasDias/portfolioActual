@@ -4,10 +4,12 @@
 
     border: 2px solid #18d26e;
     padding: 8px;
+    transition: 300ms all ease-in;
 }
 
 .imagemTop:hover{
     border: 2px solid #fff;
+    transform: scale(1.07) !important;
 }
 
 .meuBotton{
@@ -20,11 +22,14 @@
     border: 2px solid #fff !important;
     background-color: #000;
     font-size: .9em;
+    transition: 300ms all ease-in;
 }
 
 .meuBotton:hover{
 
     background-color: #18d26e;
+    transform: scale(1.07) !important;
+
     
 }
 

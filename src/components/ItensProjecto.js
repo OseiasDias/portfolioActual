@@ -12,7 +12,7 @@ import { MdAddChart } from "react-icons/md";
 import ScrollRevealComponent from './ScrollReveal';
 import { Link } from 'react-router-dom';
 
-
+ 
 
 export default function ItensProjecto() {
 
