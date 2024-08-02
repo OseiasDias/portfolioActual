@@ -1,6 +1,6 @@
 
 
-import imagemPerfil from '../assets/img/fundoo.jpg'
+import imagemPerfil from '../assets/img/edgar.jpg'
 
 import styles from '../styles/componentes/Sobre.module.css'
 
