@@ -5,21 +5,21 @@ import { LuMapPin, LuPhoneCall } from "react-icons/lu";
 import { PiEnvelopeSimple } from "react-icons/pi";
 import { CiShare2 } from "react-icons/ci";
 import ScrollRevealComponent from './ScrollReveal';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 function Formulario() {
 
 
-    
-    
+
+
 
     return (
 
         <>
             <section>
-            <ScrollRevealComponent targetClass='scrollR'/>
-                <form className={ `w-100 ${styles.formulario} scrollR`} >
+                <ScrollRevealComponent targetClass='scrollR' />
+                <form className={`w-100 ${styles.formulario} scrollR`} >
                     <div className='row'>
                         <div className='col-12 col-md-6 col-lg-6 scrollR'>
                             <input type='text' className={`w-100 ${styles.itensF}`} placeholder='Digite Seu Nome: ' />
@@ -28,10 +28,10 @@ function Formulario() {
                             <input type='email' className={`w-100 ${styles.itensF}`} placeholder='Digite Email: ' />
                         </div>
                         <div className='col-12 col-md-12 col-lg-12 scrollR'>
-                            <input type='text'  className={`w-100 ${styles.itensF}`} placeholder='Qual é o seu Objectivo: ' />
+                            <input type='text' className={`w-100 ${styles.itensF}`} placeholder='Qual é o seu Objectivo: ' />
                         </div>
                         <div className='col-12 col-md-12 col-lg-12 scrollR'>
-                            <textarea col="12"  className={`w-100 ${styles.itensF}`} rows="8" placeholder='Deixe sua Mensagem' >
+                            <textarea col="12" className={`w-100 ${styles.itensF}`} rows="8" placeholder='Deixe sua Mensagem' >
 
                             </textarea>
                         </div>
@@ -117,10 +117,11 @@ export default function Contactos() {
 
                         <div className={` h-100 justify-content-start d-flex ${styles.divs}`}>
 
-                        <div className=''>
-                                <PiEnvelopeSimple className={styles.itens} />
+                            <div className=''>
+                                
+                                <LuPhoneCall className={styles.itens} />
                             </div>
-                            
+
                             <div>
                                 <span>Me mande um e-mail</span>
 
@@ -138,9 +139,9 @@ export default function Contactos() {
                     <div className='col-12 col-md-6 col-lg-6 my-2 scrollR'>
 
                         <div className={`h-100 justify-content-start d-flex ${styles.divs}`}>
-                            
+
                             <div className=''>
-                                <LuPhoneCall className={styles.itens} />
+                            <PiEnvelopeSimple className={styles.itens} />
                             </div>
 
                             <div>
