@@ -99,12 +99,12 @@ export default function Certificados() {
 
                     <div className='col-12 col-md-4 col-lg-3 my-3 '>
                         <div className={` h-100 ${styles.divInter}`}>
-                            <img src={Certificado1} alt="certificado de desing responsive web"/>
+                            <img src={Certificado1} className="w-100" alt="certificado de desing responsive web"/>
                         </div>
                     </div>
                     <div className='col-12 col-md-4 col-lg-3 my-3 '>
                     <div className={` h-100 ${styles.divInter}`}>
-                            <img src={Certificado1} alt="certificado de desing responsive web"/>
+                            <img src={Certificado1} className="w-100" alt="certificado de desing responsive web"/>
                         </div>
                     </div>
                    
