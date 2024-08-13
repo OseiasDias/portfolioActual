@@ -5,11 +5,11 @@ import imagemPerfil from '../assets/img/edgar.jpg'
 import styles from '../styles/componentes/Sobre.module.css'
 
 
-import { FaPeopleGroup, FaAward, FaChevronRight,FaNewspaper } from "react-icons/fa6";
+import { FaPeopleGroup, FaAward, FaChevronRight, FaNewspaper } from "react-icons/fa6";
 import { GrProjects } from "react-icons/gr";
 import { Ri24HoursLine } from "react-icons/ri";
 
-import { IoBookSharp,IoGameController  } from "react-icons/io5";
+import { IoBookSharp, IoGameController } from "react-icons/io5";
 import { PiFilmSlateFill } from "react-icons/pi";
 import { MdOutlineSportsSoccer } from "react-icons/md";
 import { SiRemedyentertainment } from "react-icons/si";
@@ -17,71 +17,103 @@ import { FaMusic } from "react-icons/fa";
 import { FaPlaneDeparture } from "react-icons/fa";
 
 import ScrollRevealComponent from './ScrollReveal';
+import {Certificado1} from "../assets/img/Capturev.PNG";
 
 
 
-function Iteresses(){
+function Iteresses() {
 
-    return(
+    return (
 
         <>
 
-        <section>
+            <section>
 
-        <ScrollRevealComponent targetClass='scrollR'/>
+                <ScrollRevealComponent targetClass='scrollR' />
 
-            <div  className={`row mt-5  ${styles.divInteresses}` } >
-                 
-                <h3 className={`mt-2  ${styles.textoTop}`}>INTERESSES</h3>
+                <div className={`row mt-5  ${styles.divInteresses}`} >
 
-                <div className='col-12 col-md-4 col-lg-3 my-3 '>
-                    <div className={` h-100 ${styles.divInter}` }>
-                        <p><IoBookSharp className={styles.subIcones} /> Leitura de Livros de TI </p>
-                    </div>
-                </div>
-                <div className='col-12 col-md-4 col-lg-3 my-3 '>
-                    <div  className={` h-100 ${styles.divInter}` }>
-                        <p><IoGameController  className={styles.subIcones} /> Videos Games </p>
-                    </div>
-                </div>
-                <div className='col-12 col-md-4 col-lg-3 my-3 '>
-                    <div className={` h-100 ${styles.divInter}` }>
-                        <p><PiFilmSlateFill className={styles.subIcones} /> Assistir Séries/Filmes </p>
-                    </div>
-                </div>
-                <div className='col-12 col-md-4 col-lg-3 my-3 '>
-                    <div className={` h-100 ${styles.divInter}` }>
-                        <p><FaNewspaper className={styles.subIcones} /> Noticias </p>
-                    </div>
-                </div>
+                    <h3 className={`mt-2  ${styles.textoTop}`}>INTERESSES</h3>
 
-                <div className='col-12 col-md-4 col-lg-3 my-3 '>
-                    <div className={` h-100 ${styles.divInter}` }>
-                        <p><MdOutlineSportsSoccer className={styles.subIcones} /> Desportos </p>
+                    <div className='col-12 col-md-4 col-lg-3 my-3 '>
+                        <div className={` h-100 ${styles.divInter}`}>
+                            <p><IoBookSharp className={styles.subIcones} /> Leitura de Livros de TI </p>
+                        </div>
+                    </div>
+                    <div className='col-12 col-md-4 col-lg-3 my-3 '>
+                        <div className={` h-100 ${styles.divInter}`}>
+                            <p><IoGameController className={styles.subIcones} /> Videos Games </p>
+                        </div>
+                    </div>
+                    <div className='col-12 col-md-4 col-lg-3 my-3 '>
+                        <div className={` h-100 ${styles.divInter}`}>
+                            <p><PiFilmSlateFill className={styles.subIcones} /> Assistir Séries/Filmes </p>
+                        </div>
+                    </div>
+                    <div className='col-12 col-md-4 col-lg-3 my-3 '>
+                        <div className={` h-100 ${styles.divInter}`}>
+                            <p><FaNewspaper className={styles.subIcones} /> Noticias </p>
+                        </div>
+                    </div>
+
+                    <div className='col-12 col-md-4 col-lg-3 my-3 '>
+                        <div className={` h-100 ${styles.divInter}`}>
+                            <p><MdOutlineSportsSoccer className={styles.subIcones} /> Desportos </p>
+                        </div>
+                    </div>
+                    <div className='col-12 col-md-4 col-lg-3 my-3 '>
+                        <div className={` h-100 ${styles.divInter}`}>
+                            <p><SiRemedyentertainment className={styles.subIcones} /> Entretenimentos </p>
+                        </div>
+                    </div>
+                    <div className='col-12 col-md-4 col-lg-3 my-3 '>
+                        <div className={` h-100 ${styles.divInter}`}>
+                            <p><FaMusic className={styles.subIcones} />Musicas </p>
+                        </div>
+                    </div>
+                    <div className='col-12 col-md-4 col-lg-3 my-3 '>
+                        <div className={` h-100 ${styles.divInter}`}>
+                            <p><FaPlaneDeparture className={styles.subIcones} /> Viagens </p>
+                        </div>
                     </div>
                 </div>
-                <div className='col-12 col-md-4 col-lg-3 my-3 '>
-                    <div className={` h-100 ${styles.divInter}` }>
-                        <p><SiRemedyentertainment  className={styles.subIcones} /> Entretenimentos </p>
-                    </div>
-                </div>
-                <div className='col-12 col-md-4 col-lg-3 my-3 '>
-                    <div className={` h-100 ${styles.divInter}` }>
-                        <p><FaMusic className={styles.subIcones} />Musicas </p>
-                    </div>
-                </div>
-                <div className='col-12 col-md-4 col-lg-3 my-3 '>
-                    <div className={` h-100 ${styles.divInter}` }>
-                        <p><FaPlaneDeparture  className={styles.subIcones} /> Viagens </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
+            </section>
+
         </>
     )
 }
 
+
+export default function Certificados() {
+
+    return (
+        <>
+            
+            <section>
+
+                
+
+                <div className={`row mt-5  ${styles.divInteresses}`} >
+
+                    <h3 className={`mt-2  ${styles.textoTop}`}>Certificações</h3>
+
+                    <div className='col-12 col-md-4 col-lg-3 my-3 '>
+                        <div className={` h-100 ${styles.divInter}`}>
+                            <img src={Certificado1} alt="certificado de desing responsive web"/>
+                        </div>
+                    </div>
+                    <div className='col-12 col-md-4 col-lg-3 my-3 '>
+                    <div className={` h-100 ${styles.divInter}`}>
+                            <img src={Certificado1} alt="certificado de desing responsive web"/>
+                        </div>
+                    </div>
+                   
+                   
+                </div>
+            </section>
+        </>
+    )
+}
 
 
 export default function Sobre() {
@@ -232,6 +264,8 @@ export default function Sobre() {
 
                             <Especificacao />
 
+                            <Certificados />
+
                             <Habilidades />
 
                             <Iteresses />
@@ -305,7 +339,7 @@ function Habilidades() {
         <>
             <section>
 
-                <h6  className={`mt-5 mb-3 ${styles.textoTop}`}>HABILIDADES</h6>
+                <h6 className={`mt-5 mb-3 ${styles.textoTop}`}>HABILIDADES</h6>
                 <div className={`row`}>
 
                     <div className='col-12 col-md-12 col-lg-6'>
@@ -348,7 +382,7 @@ function Habilidades() {
                             </div>
                         </div>
                     </div>
-                  
+
 
                 </div>
             </section>
