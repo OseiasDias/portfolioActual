@@ -116,10 +116,11 @@ export default function Contactos() {
                     <div className='col-12 col-md-6 col-lg-6 my-2 scrollR'>
 
                         <div className={` h-100 justify-content-start d-flex ${styles.divs}`}>
-                            <div className=''>
-                                <LuPhoneCall className={styles.itens} />
-                            </div>
 
+                        <div className=''>
+                                <PiEnvelopeSimple className={styles.itens} />
+                            </div>
+                            
                             <div>
                                 <span>Me mande um e-mail</span>
 
@@ -127,6 +128,7 @@ export default function Contactos() {
                                 <p> oseiasdias1953@gmail.com</p>
 
                             </div>
+
 
                         </div>
 
@@ -136,8 +138,9 @@ export default function Contactos() {
                     <div className='col-12 col-md-6 col-lg-6 my-2 scrollR'>
 
                         <div className={`h-100 justify-content-start d-flex ${styles.divs}`}>
+                            
                             <div className=''>
-                                <PiEnvelopeSimple className={styles.itens} />
+                                <LuPhoneCall className={styles.itens} />
                             </div>
 
                             <div>
