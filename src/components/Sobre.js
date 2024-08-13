@@ -84,7 +84,7 @@ function Iteresses() {
 }
 
 
-export default function Certificados() {
+ function Certificados() {
 
     return (
         <>
