@@ -124,7 +124,7 @@ export default function Contactos() {
                                 <span>Me mande um e-mail</span>
 
 
-                                <p> contato@exemplo.com</p>
+                                <p> oseiasdias1953@gmail.com</p>
 
                             </div>
 
