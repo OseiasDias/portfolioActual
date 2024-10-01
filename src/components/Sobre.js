@@ -215,8 +215,8 @@ export default function Sobre() {
                     </p>
                     <p>
                       Ao longo da minha jornada, desenvolvi um sólido domínio
-                      em:
-                      <ul>
+                      em: <br />
+                
                       <p><FaChevronRight className={`${styles.direita}`} /><span>HTML5</span></p>
                       <p><FaChevronRight className={`${styles.direita}`} /><span>CSS3</span></p>
                       <p><FaChevronRight className={`${styles.direita}`} /><span>JavaScript</span></p>
@@ -227,7 +227,7 @@ export default function Sobre() {
                       <p><FaChevronRight className={`${styles.direita}`} /><span>MongoDB</span></p>
 
                     
-                      </ul>
+                      
                     </p>
                     <p>
                       Sou um aprendiz autodidata, sempre buscando as últimas
