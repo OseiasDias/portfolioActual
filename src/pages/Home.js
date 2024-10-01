@@ -26,7 +26,7 @@ export default function Home() {
                             <div className={`col-12 scrollR col-md-11 col-lg-8 text-white z-2 ${styles.divisaoTexto}`}>
 
                                 <h2 className='z-1 scrollR'>Oséias  Dias</h2>
-                                <p className='z-1 scrollR'>Sou um <span>Programador Front-End</span> apaixonado por tecnólogias de informação</p>
+                                <p className='z-1 scrollR'>Sou um <span>Desenvolvidor Web </span> apaixonado por tecnólogias de informação</p>
 
                                 <div className={styles.redes}>
                                     <Link to="https://twitter.com/edgar6471" target="_blank" >
